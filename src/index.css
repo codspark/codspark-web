@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@layer base {
+  :root {
+    --radius: 0.5rem
+  }
+}
+
+.hero-section {
+  background-image: url('/HeroBG.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
