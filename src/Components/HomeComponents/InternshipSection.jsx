@@ -19,15 +19,15 @@ export default function InternshipSection() {
   return (
     <section className="py-16">
       <div className="max-w-6xl mx-auto text-center px-4">
-        <h2 className="text-3xl font-bold text-gray-900 mb-2 ">INTERNSHIPS WE OFFER!</h2>
+        <h2 className="text-2xl lg:text-3xl font-bold text-gray-900 mb-2 ">INTERNSHIPS WE OFFER!</h2>
         <div className="flex justify-center mb-8">
           <div className="bg-accent w-40 h-1"></div>
         </div>
-        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6">
+        <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6">
           {internships.map((internship, index) => (
-            <div key={index} className="bg-white rounded-xl shadow-lg p-6 text-center">
+            <div key={index} className="bg-white rounded-xl shadow-lg border border-gray-100 p-6 text-center">
               <img src={internship.img} alt={internship.title} className="w-full h-40 object-contain mx-auto" />
-              <h3 className="text-lg font-semibold mt-4">{internship.title}</h3>
+              <h3 className="text-sm lg:text-lg font-semibold mt-4">{internship.title}</h3>
               <a href="https://forms.gle/ivkdnHNtT4RM4uha7" target="_blank" rel="noopener noreferrer">
                 <Button className="rounded-full mt-4">
                   Apply

@@ -30,18 +30,19 @@ function ContactUs() {
 
   return (
     <div>
-      <div className='bg-primary'>
+      <div className='bg-primary px-10 lg:px-0'>
         <div className='h-[40vh] container m-auto flex flex-col items-start justify-center text-white'>
-          <h1 className='font-bold text-5xl'>Contact Us</h1>
+          <h1 className='font-bold text-3xl lg:text-5xl'>Contact Us</h1>
           <p className='flex items-center gap-2'><Link to='/'>Home</Link> <ArrowRight size={15}/> Contact Us</p>
         </div>
       </div>
-      <div className='container mx-auto py-10'>
+      <div className='container mx-auto p-5 py-10'>
+        <p className='text-xs mb-6 text-center text-red-500 '>Currently our contact form is not working, sorry for the inconvenience.</p>
         <h1 className='text-3xl mb-6 text-center font-bold '>Let's Get Connected</h1>
         <div className="flex justify-center mb-8">
             <div className="bg-accent w-40 h-1"></div>
         </div>
-        <form onSubmit={handleSubmit} className='max-w-lg mx-auto bg-white shadow-md rounded-lg p-6'>
+        <form onSubmit={handleSubmit} className='max-w-lg mx-auto bg-white shadow-lg border border-gray-100 rounded-lg p-6'>
           <div className='mb-4'>
             <label className='block text-gray-700'>Name</label>
             <input type='text' name='name' value={formData.name} onChange={handleChange} className='w-full p-2 border rounded-lg' />
@@ -62,7 +63,7 @@ function ContactUs() {
             <textarea name='message' value={formData.message} onChange={handleChange} className='w-full p-2 border rounded-lg'></textarea>
             {errors.message && <p className='text-red-500 text-sm'>{errors.message}</p>}
           </div>
-          <button type='submit' className='bg-accent text-white px-4 py-2 rounded-lg w-full'>Submit</button>
+          <button disabled type='submit' className='cursor-not-allowed bg-accent text-white px-4 py-2 rounded-lg w-full'>Submit</button>
         </form>
       </div>
     </div>

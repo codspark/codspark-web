@@ -22,7 +22,7 @@ export default function WhyChooseUs() {
   
     return (
       <section className="py-16 bg-white">
-        <div className="max-w-6xl mx-auto text-center px-4">
+        <div className="max-w-6xl mx-auto text-center px-5">
           <h2 className="text-3xl font-bold text-accent mb-4">Why Choose Us?</h2>
           <p className="text-gray-600 mb-8">
             We bring you the best programs designed to help you succeed in your career.
@@ -32,7 +32,7 @@ export default function WhyChooseUs() {
             {features.map((feature, index) => (
               <div
                 key={index}
-                className="bg-white rounded-xl shadow-lg p-6 flex flex-col items-center text-center border"
+                className="bg-white rounded-xl shadow-lg p-6 flex flex-col items-center text-center border border-gray-100"
               >
                 <div className="text-4xl mb-3">{feature.icon}</div>
                 <h3 className="text-lg font-semibold">{feature.title}</h3>

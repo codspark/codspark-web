@@ -10,11 +10,13 @@ import Verification from "./Pages/Verification";
 import Internships from "./Pages/Internships";
 import Products from "./Pages/Products";
 import Footer from "./Components/Footer";
+import SubHeader from "./Components/SubHeader";
 
 
 function App() {
   return (
     <Router>
+      <SubHeader />
       <Header />
       <Routes>
         <Route path="/" element={<Home />} />
