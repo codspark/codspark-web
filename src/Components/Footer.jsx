@@ -1,7 +1,3 @@
-import React from "react";
-import { FaFacebookF, FaYoutube, FaInstagram, FaPinterest, FaWhatsapp } from "react-icons/fa";
-import { IoMailOutline } from "react-icons/io5";
-import { BsTelephone } from "react-icons/bs";
 import { Link } from "react-router-dom";
 import { Github, Instagram, Linkedin, Twitter } from "lucide-react";
 
