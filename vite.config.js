@@ -4,7 +4,7 @@ import { defineConfig } from "vite"
 
 export default defineConfig({
   plugins: [react()],
-  base: '/codspark-web',
+  base: "codspark-web",
   resolve: {
     alias: {
       "@": path.resolve(__dirname, "./src"),

@@ -1,6 +1,6 @@
 {
   "name": "codspark",
-  "homepage": "https://codspark.github.io/codspark-web",
+  "homepage": "https://github.com/codspark/codspark-web.git",
   "private": true,
   "version": "0.0.0",
   "type": "module",
