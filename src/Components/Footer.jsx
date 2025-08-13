@@ -8,8 +8,8 @@ const Footer = () => {
                 <div className="flex justify-center mb-10">
                     <img src="CodSparkFooterLogo.png" alt="" width={300} />
                 </div>
-                <div className="grid grid-cols-5 container mx-auto gap-10">
-                    <div className="col-span-2 text-justify mr-10">
+                <div className="flex flex-col gap-10 px-5 lg:grid lg:grid-cols-5 container lg:mx-auto gap-10">
+                    <div className="col-span-2 text-justify lg:mr-10">
                         <p><span className="text-accent font-medium">CodSpark</span> is a technology company specializing in web development, app development, and software solutions. We are committed to building innovative digital products that empower businesses and drive technological advancement. With a passion for coding and problem-solving, we strive to transform ideas into impactful software solutions.</p>
                     </div>
                     <div>

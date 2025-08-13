@@ -4,8 +4,8 @@ function Ecommerce() {
     return (
         <div className='py-10'>
             <div className='container mx-auto px-6 py-4'>
-                <h1 className='text-center text-3xl font-bold text-primary '>Building Powerful & Tailored E-Commerce Solutions for Your Business</h1>
-                <div className='grid grid-cols-3 flex items-center'>
+                <h1 className='text-center text-3xl font-bold text-primary mb-5'>Building Powerful & Tailored E-Commerce Solutions for Your Business</h1>
+                <div className='flex flex-col gap-5 lg:grid grid-cols-3 flex items-center'>
                     <div className='col-span-2 text-lg my-10'>
                         <div>
                             <h2 className='text-2xl font-bold'>E-Commerce Development at CodSpark</h2><br />
