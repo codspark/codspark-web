@@ -50,7 +50,7 @@ function Verification() {
   };
 
   return (
-    <div className="p-20 max-w-2xl m-auto">
+    <div className="p-5 lg:p-20 max-w-2xl m-auto">
       <h2 className="font-bold">Certificate Verification</h2>
       <input
         type="text"
