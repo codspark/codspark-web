@@ -32,8 +32,9 @@ const Footer = () => {
                     <div>
                         <h1 className="font-bold text-lg">CONTACT US</h1>
                         <div className="h-1 w-10 bg-accent my-2"></div>
-                        <p className="flex items-center">team@codspark.in</p>
-                        Kerala - India
+                        <a className="hover:text-accent" href="mailto:team@codspark.in">team@codspark.in</a>
+                        {/* <p className="flex items-center">team@codspark.in</p> */}
+                        <div>Kerala - India</div>
                     </div>
                 </div>
                 <div className="container mx-auto flex flex-col justify-center items-center mt-10">

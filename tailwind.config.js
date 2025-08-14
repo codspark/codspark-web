@@ -19,7 +19,7 @@ export default {
   		},
 		keyframes: {
 			marquee: {
-			'0%': { transform: 'translateX(400%)' },
+			'0%': { transform: 'translateX(300%)' },
 			'100%': { transform: 'translateX(-100%)' },
 			},
 			p_marquee: {

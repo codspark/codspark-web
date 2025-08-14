@@ -35,8 +35,8 @@ function Header() {
               to={item.path}
               className={`relative transition duration-300 ${
                 location.pathname === item.path
-                  ? "text-blue-600 after:absolute after:left-0 after:bottom-[-2px] after:w-full after:h-[2px] after:bg-blue-600"
-                  : "hover:text-blue-600 hover:after:absolute hover:after:left-0 hover:after:bottom-[-2px] hover:after:w-full hover:after:h-[2px] hover:after:bg-blue-600"
+                  ? "text-accent after:absolute after:left-0 after:bottom-[-2px] after:w-full after:h-[2px] after:bg-accent"
+                  : "hover:text-accent hover:after:absolute hover:after:left-0 hover:after:bottom-[-2px] hover:after:w-full hover:after:h-[2px] hover:after:bg-accent hover:scale-105"
               }`}
             >
               {item.name}

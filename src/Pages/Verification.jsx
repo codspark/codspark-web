@@ -54,7 +54,7 @@ function Verification() {
       <h2 className="font-bold">Certificate Verification</h2>
       <input
         type="text"
-        placeholder="Enter Candidate ID"
+        placeholder="Enter Certificate ID"
         value={candidateId}
         onChange={(e) => setCandidateId(e.target.value)}
         className="p-3 w-full mb-5 border rounded-lg"
