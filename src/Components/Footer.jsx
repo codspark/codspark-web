@@ -32,7 +32,7 @@ const Footer = () => {
                     <div>
                         <h1 className="font-bold text-lg">CONTACT US</h1>
                         <div className="h-1 w-10 bg-accent my-2"></div>
-                        <a className="hover:text-accent" href="mailto:team@codspark.in">team@codspark.in</a>
+                        <a className="hover:text-accent transition-all" href="mailto:team@codspark.in">team@codspark.in</a>
                         {/* <p className="flex items-center">team@codspark.in</p> */}
                         <div>Kerala - India</div>
                     </div>
