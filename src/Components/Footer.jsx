@@ -32,7 +32,7 @@ const Footer = () => {
                     <div>
                         <h1 className="font-bold text-lg">CONTACT US</h1>
                         <div className="h-1 w-10 bg-accent my-2"></div>
-                        <p className="flex items-center">contact.codspark@gmail.com</p>
+                        <p className="flex items-center">team@codspark.in</p>
                         Kerala - India
                     </div>
                 </div>
