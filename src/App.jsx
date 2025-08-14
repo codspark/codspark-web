@@ -11,6 +11,7 @@ import Internships from "./Pages/Internships";
 import Products from "./Pages/Products";
 import Footer from "./Components/Footer";
 import SubHeader from "./Components/SubHeader";
+import PageNotFound from "./Pages/PageNotFound";
 
 
 function App() {
@@ -27,6 +28,7 @@ function App() {
         <Route path="/verification" element={<Verification />} />
         <Route path="/about" element={<AboutUs />} />
         <Route path="/contact" element={<ContactUs />} />
+        <Route path="/*" element={<PageNotFound />} />
       </Routes>
       <Footer />
     </Router>
