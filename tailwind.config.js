@@ -10,7 +10,8 @@ export default {
   		colors: {
   			primary: '#0A192F',
   			accent: '#FF6B00',
-  			background: '#F5F5F5'
+  			background: '#F5F5F5',
+			siteBackground: '#F7F8FD'
   		},
   		borderRadius: {
   			lg: 'var(--radius)',

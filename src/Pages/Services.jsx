@@ -2,17 +2,12 @@ import React from 'react'
 import { ArrowRight } from 'lucide-react'
 import { Link } from 'react-router-dom'
 import { Button } from '../Components/ui/button'
+import PageHeader from '../Components/PageHeader'
 
 function Services() {
   return (
     <div>
-      <div className='bg-primary px-10 lg:px-0'>
-        <div className='h-[40vh] container mx-auto flex flex-col items-start justify-center text-white '>
-          <h1 className='font-bold text-3xl lg:text-5xl'>Services</h1>
-          <p className='flex items-center gap-2'><Link to='/' >Home</Link> <ArrowRight size={15} /> Services</p>
-        </div>
-      </div>
-
+      <PageHeader title = {"Our Services"} />
       <div>
         <div className='container mx-auto my-10 text-center '>
           <h1 className='font-bold text-3xl text-accent'>Our Services</h1>

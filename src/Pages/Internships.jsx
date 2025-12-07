@@ -3,16 +3,12 @@ import { ArrowRight } from 'lucide-react'
 import { Link } from 'react-router-dom'
 import InternshipSection from '../Components/HomeComponents/InternshipSection'
 import WhyChooseUs from '../Components/HomeComponents/WhyChooseUs'
+import PageHeader from '../Components/PageHeader'
 
 function Internships() {
   return (
     <div>
-      <div className='bg-primary px-10 lg:px-0'>
-        <div className='h-[40vh] container m-auto flex flex-col items-start justify-center text-white '>
-          <h1 className='font-bold text-3xl lg:text-5xl '>Internships</h1>
-          <p className='flex items-center gap-2'><Link to='/' >Home</Link> <ArrowRight size={15} /> Internships</p>
-        </div>
-      </div>
+      <PageHeader title = {"Internship"} />
 
       <div>
         <div className='container px-5 mx-auto my-10 '>

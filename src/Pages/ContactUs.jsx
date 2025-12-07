@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import { ArrowRight } from 'lucide-react';
 import { Link } from 'react-router-dom';
+import PageHeader from '../Components/PageHeader';
 
 function ContactUs() {
   const [formData, setFormData] = useState({ name: '', email: '', phone: '', message: '' });
@@ -30,12 +31,7 @@ function ContactUs() {
 
   return (
     <div>
-      <div className='bg-primary px-10 lg:px-0'>
-        <div className='h-[40vh] container m-auto flex flex-col items-start justify-center text-white'>
-          <h1 className='font-bold text-3xl lg:text-5xl'>Contact Us</h1>
-          <p className='flex items-center gap-2'><Link to='/'>Home</Link> <ArrowRight size={15}/> Contact Us</p>
-        </div>
-      </div>
+      <PageHeader title = {"Contact Us"} />
       <div className='container mx-auto p-5 py-10'>
         <p className='text-xs mb-6 text-center text-red-500 '>Currently our contact form is not working, sorry for the inconvenience.</p>
         <h1 className='text-3xl mb-6 text-center font-bold '>Let's Get Connected</h1>

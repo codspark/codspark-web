@@ -2,7 +2,7 @@ import { Link } from "react-router-dom";
 
 function PageNotFound() {
   return (
-    <div className="h-screen w-full flex flex-col items-center justify-center bg-gradient-to-br from-primary via-gray-800 to-black px-4">
+    <div className="h-[80vh] w-full flex flex-col items-center justify-center px-4">
       {/* 404 text */}
       <h1 className="text-[8rem] md:text-[12rem] font-extrabold text-accent">
         404

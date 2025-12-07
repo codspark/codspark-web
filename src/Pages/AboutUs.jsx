@@ -2,16 +2,12 @@ import { ArrowRight } from 'lucide-react'
 import React from 'react'
 import { Link } from 'react-router-dom'
 import CommunitySection from '../Components/HomeComponents/CommunitySection'
+import PageHeader from '../Components/PageHeader'
 
 function AboutUs() {
   return (
     <div>
-      <div className=' bg-primary px-10 lg:px-0'>
-        <div className='h-[40vh] container mx-auto flex flex-col items-start justify-center text-white '>
-          <h1 className='font-bold text-3xl lg:text-5xl'>About Us</h1>
-          <p className='flex items-center gap-2'><Link to='/' >Home</Link> <ArrowRight size={15} /> About Us</p>
-        </div>
-      </div>
+      <PageHeader title={"About Us"}/>
       <div className='p-5'>
         {/* <div className='flex flex-col items-center my-10'>
           <img src="CodSpark.png" alt="CodSpark" width={200}/>

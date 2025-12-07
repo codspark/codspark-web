@@ -6,7 +6,7 @@ const Footer = () => {
         <footer className="">
             <div className="py-20 bg-primary text-white">
                 <div className="flex justify-center mb-10">
-                    <img src="CodSparkFooterLogo.png" alt="" width={300} />
+                    <img src="CodSparkFooterLogo.svg" alt="" width={300} />
                 </div>
                 <div className="flex flex-col gap-10 px-5 lg:grid lg:grid-cols-5 container lg:mx-auto gap-10">
                     <div className="col-span-2 text-justify lg:mr-10">

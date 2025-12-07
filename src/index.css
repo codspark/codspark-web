@@ -13,3 +13,7 @@
   background-position: center;
   background-repeat: no-repeat;
 }
+
+/* body {
+  @apply bg-[red-100];
+} */

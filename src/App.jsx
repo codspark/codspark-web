@@ -17,7 +17,7 @@ import PageNotFound from "./Pages/PageNotFound";
 function App() {
   return (
     <Router>
-      <SubHeader />
+      {/* <SubHeader /> */}
       <Header />
       <Routes>
         <Route path="/" element={<Home />} />
