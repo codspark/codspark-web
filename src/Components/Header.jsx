@@ -51,7 +51,7 @@ function Header() {
         <button className="md:hidden" onClick={() => setIsOpen(!isOpen)}>
           {isOpen ? <X size={28} /> : <Menu size={28} />}
         </button>
-      <Button size={"xl"}><Link to={"/contact"}>Get Start Now</Link></Button>
+      <Button className="hidden md:block" size={"xl"}><Link to={"/contact"}>Get Start Now</Link></Button>
       </div>
 
       {/* Mobile Dropdown Menu */}

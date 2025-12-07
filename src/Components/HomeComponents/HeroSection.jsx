@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom'
 
 function HeroSection() {
   return (
-    <div className="h-[95vh] pt-[30px] hero-section flex flex-col justify-center items-center">
+    <div className="h-[80vh] px-3 md:h-[95vh] pt-[30px] hero-section flex flex-col justify-center items-center">
       
       <div className='font-bold text-accent'>BEST IT SOLUTION COMPANY</div>
       <div className="text-3xl text-center lg:text-7xl font-bold text-primary">
